@@ -33,4 +33,4 @@ export const generateCid = () => {
   }
   const lastDigit = (11 - (sum % 11)) % 10;
   return `${result}${lastDigit}`;
-}
+};
